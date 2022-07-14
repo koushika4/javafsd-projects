@@ -6,7 +6,7 @@ public class stringmethods {
 		String s = "Hello World";
 		System.out.println("Length = " + s.length());
 		
-		System.out.println("Index of W = " + s.indexOf(0);
+		System.out.println("Index of W = " + s.indexOf('W');
 		
 		//print the character at position 3
 		System.out.println("Character at 3 = " + s.charAt(3));
@@ -14,8 +14,8 @@ public class stringmethods {
 		
 		System.out.println("Command after exception");
 		
-		System.out.println("Index of l = " + s.index0f('l'));
-		System.out.println("Index of second 1 = " + s.index0f('l',3));
+		System.out.println("Index of l = " + s.indexof('l'));
+		System.out.println("Index of second 1 = " + s.indexof('l',3));
 				System.out.println("Index of third l = " + s.indexof('l',4));
 				
 				System.out.println("substring: " + s.substring(3));
