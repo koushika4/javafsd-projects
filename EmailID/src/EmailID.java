@@ -1,30 +1,28 @@
 import java.util.*;
-public class EmailID
-{
+public class EmailID {
 	public static void main(String args[])
 	{
-		String s,search;
+		//String s;
+		String search;
 		int n;
 		ArrayList<String> a = new ArrayList<String>();
+		a.add("koushi.balusu@gmail.com");
+        a.add("praneetha.katta@gmail.com");
+        a.add("teja.bodapudi@gmail.com");
+        a.add("shanu.pendiyala@gmail.com");
+        
+        
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter the number of emali'ds can be entered :");
-		n=sc.nextInt();
-		System.out.println("Enter the email I'ds :");
-		for(int i=1;i<=n;i++)
-		{
-			s=sc.next();
-			a.add(s);
-		}
-		System.out.println(a);
+		
 		System.out.println("Enter the email Id that have to be searched");
 		search=sc.next();
 		if(a.contains(search))
 		{
-			System.out.println("Found");
+			System.out.println(search + " is availaible in the list you have given");
 		}
 		else
 		{
-			System.out.println("Not Found");
+			System.out.println(search + " is not available in the list you have given");
 		}
 	}
 }
