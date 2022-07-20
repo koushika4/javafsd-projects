@@ -31,7 +31,7 @@ public class Calculator
 				break;
 
 			case '/' : answer=num1/num2;
-				System.out.println(answer);
+		System.out.println(answer);
 				break;
 
 			case '%' : answer=num1%num2;
